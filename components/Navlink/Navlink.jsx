@@ -18,7 +18,7 @@ function NavLink({ href, exact, children, ...props }) {
   const isActive = exact ? pathname === href : pathname.startsWith(href);
 
   if (isActive) {
-    props.className += " active font-medium text-lg";
+    props.className += " active font-bold text-2xl";
   }
 
   return (

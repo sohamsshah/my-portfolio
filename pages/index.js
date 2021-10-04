@@ -42,7 +42,7 @@ export default function Home() {
                 workshops, talks and hackathons for the community.
               </p>
               <p className="text-lg pb-10">
-                <Link href="/about"><a className="hover:underline">Read More...</a></Link>
+                <Link href="/about"><a className="hover:underline">Learn More...</a></Link>
               </p>
             </div>
             <div className="border-b-2">
@@ -57,7 +57,7 @@ export default function Home() {
                 <li className="my-2"><span className="underline">Design Libraries</span>: TailwindCSS, Bootstrap, MaterialUI, AntDesign</li>
               </ul> 
               <p className="text-lg pb-10">
-                <Link href="/resume"><a className="hover:underline">Read More...</a></Link>
+                <Link href="/resume"><a className="hover:underline">Learn More...</a></Link>
               </p> 
             </div>
             <div className="border-b-2">
@@ -70,7 +70,7 @@ export default function Home() {
                 <li className="my-2"><span><a className="underline" href="https://www.youtube.com/watch?v=mp3SIa1H1rI" target="_blank" rel="noreferrer"> Building, testing and Publishing your own React Component Library</a></span><span className="font-500"> @ReactJSBangalore</span> </li>
               </ul> 
               <p className="text-lg pb-10">
-                <Link href="/talks"><a className="hover:underline">Read More...</a></Link>
+                <Link href="/talks"><a className="hover:underline">Learn More...</a></Link>
               </p>  
             </div>
             <div className="border-b-2">
@@ -83,7 +83,14 @@ export default function Home() {
                 <li className="my-2"><span><a className="underline" href="https://sohamsshah.hashnode.dev/7-open-source-spirits-you-must-know" target="_blank" rel="noreferrer"> 7 Open Source Spirits you must know!</a></span></li>
               </ul> 
               <p className="text-lg pb-10">
-                <Link href="/blog"><a className="hover:underline">Read More...</a></Link>
+              <a
+              className="hover:underline"
+            href="https://sohamsshah.hashnode.dev/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Learn More...
+          </a>
               </p>  
             </div>
           </div>
