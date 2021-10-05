@@ -14,9 +14,11 @@ export default function Talks() {
       <main className="lg:mx-56 mx-8 flex flex-col h-screen justify-between">
         <div>
           <Navbar />
-          <div className="text-gray-600">
+          <div className="text-gray-600 dark:text-gray-400">
             <div className="mt-2 border-b-2">
-              <h1 className="text-6xl font-bold pb-6 text-gray-900">Talks 🎙</h1>
+              <h1 className="text-6xl font-bold pb-6 text-gray-900 dark:text-gray-200">
+                Talks 🎙
+              </h1>
               <p className="text-xl pb-4">
                 I am a true believer of "One's Knowledge amplifies
                 exponentially, when shared." And so, I love giving Tech Talks at
@@ -28,7 +30,7 @@ export default function Talks() {
             <div className="border-b-2">
               <ul className="text-xl pb-4">
                 <li className="my-4">
-                  <h2 className="text-2xl pb-2 text-gray-900 font-bold">
+                  <h2 className="text-2xl pb-2 text-gray-900 dark:text-gray-200 font-bold">
                     PULL REQUEST (Open source Workshop) - Google Developer
                     Students Club @ GHRCE
                   </h2>
@@ -54,7 +56,7 @@ export default function Talks() {
                   </p>
                 </li>
                 <li className="my-4">
-                  <h2 className="text-2xl pb-2 text-gray-900 font-bold">
+                  <h2 className="text-2xl pb-2 text-gray-900 dark:text-gray-200 font-bold">
                     UNBUNDLED: The Future of Frontend Tooling - ReactNativeBLR
                     @geekyAnts
                   </h2>
@@ -80,7 +82,7 @@ export default function Talks() {
                   </p>
                 </li>
                 <li className="my-4">
-                  <h2 className="text-2xl pb-2 text-gray-900 font-bold">
+                  <h2 className="text-2xl pb-2 text-gray-900 dark:text-gray-200 font-bold">
                     Building, testing and Publishing your own React Component
                     Library - ReactJSBangalore @reactify_in
                   </h2>

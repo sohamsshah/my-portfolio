@@ -14,17 +14,17 @@ export default function Resume() {
       <main className="lg:mx-56 mx-8 flex flex-col h-screen justify-between">
         <div>
           <Navbar />
-          <div className="text-gray-600">
+          <div className="text-gray-600 dark:text-gray-400">
             <div className="mt-2 border-b-2">
-              <h1 className="text-6xl font-bold pb-6 text-gray-900">
+              <h1 className="text-6xl font-bold pb-6 text-gray-900 dark:text-gray-200">
                 Resume 📃
               </h1>
             </div>
-            <h2 className="text-4xl pt-4 font-bold text-gray-900">
+            <h2 className="text-4xl pt-4 font-bold text-gray-900 dark:text-gray-200">
               Soham S. Shah
             </h2>
             <div className="border-b-2">
-              <p className="text-3xl pb-2 pt-10 text-gray-900 font-medium">
+              <p className="text-3xl pb-2 pt-10 text-gray-900 dark:text-gray-200 font-medium">
                 Objective
               </p>
               <p className="text-xl pb-6">
@@ -37,12 +37,12 @@ export default function Resume() {
               </p>
             </div>
             <div className="border-b-2">
-              <p className="text-3xl pb-2 pt-10 text-gray-900 font-medium">
+              <p className="text-3xl pb-2 pt-10 text-gray-900 dark:text-gray-200 font-medium">
                 Work Experience 👨‍💻
               </p>
               <ul className="text-xl pb-4 pl-6 list-disc">
                 <li className="my-4">
-                  <h2 className="font-medium text-gray-900 text-xl mb-2">
+                  <h2 className="font-medium text-gray-900 dark:text-gray-200 text-xl mb-2">
                     Full Stack Developer - Quicko
                   </h2>
                   <h3>April 2021 - June 2021</h3>
@@ -58,7 +58,7 @@ export default function Resume() {
                   </ul>
                 </li>
                 <li className="my-4">
-                  <h2 className="font-medium text-gray-900 text-xl mb-2">
+                  <h2 className="font-medium text-gray-900 dark:text-gray-200 text-xl mb-2">
                     Project Mentor, GirlScript Summer of Code (GSSoC'21)
                   </h2>
                   <h3>March 2021 - June 2021</h3>
@@ -74,7 +74,7 @@ export default function Resume() {
                   </ul>
                 </li>
                 <li className="my-4">
-                  <h2 className="font-medium text-gray-900 text-xl mb-2">
+                  <h2 className="font-medium text-gray-900 dark:text-gray-200 text-xl mb-2">
                     Software Developer, BotCart.co
                   </h2>
                   <h3>September 2020 - November 2020</h3>
@@ -96,12 +96,12 @@ export default function Resume() {
               </ul>
             </div>
             <div className="border-b-2">
-              <p className="text-3xl pb-2 pt-10 text-gray-900 font-medium">
+              <p className="text-3xl pb-2 pt-10 text-gray-900 dark:text-gray-200 font-medium">
                 Community Experience 🌐
               </p>
               <ul className="text-xl pb-4 pl-6 list-disc">
                 <li className="my-4">
-                  <h2 className="font-medium text-gray-900 text-xl mb-2">
+                  <h2 className="font-medium text-gray-900 dark:text-gray-200 text-xl mb-2">
                     Community Outreach Team Member at Google Developer Students
                     Club, GHRCE
                   </h2>
@@ -117,7 +117,7 @@ export default function Resume() {
                   </ul>
                 </li>
                 <li className="my-4">
-                  <h2 className="font-medium text-gray-900 text-xl mb-2">
+                  <h2 className="font-medium text-gray-900 dark:text-gray-200 text-xl mb-2">
                     Robotics Lead, AIIH Club
                   </h2>
                   <ul className="my-2">
@@ -140,7 +140,7 @@ export default function Resume() {
                   </ul>
                 </li>
                 <li className="my-4">
-                  <h2 className="font-medium text-gray-900 text-xl mb-2">
+                  <h2 className="font-medium text-gray-900 dark:text-gray-200 text-xl mb-2">
                     Community Developer, Activeloop AI
                   </h2>
                   <ul className="my-2">
@@ -156,7 +156,7 @@ export default function Resume() {
                   </ul>
                 </li>
                 <li className="my-4">
-                  <h2 className="font-medium text-gray-900 text-xl mb-2">
+                  <h2 className="font-medium text-gray-900 dark:text-gray-200 text-xl mb-2">
                     Open Source and Web Development Mentor, Ingenious Hackathon,
                     Ahmedabad University
                   </h2>
@@ -183,7 +183,7 @@ export default function Resume() {
               </ul>
             </div>
             <div className="border-b-2">
-              <p className="text-3xl pb-2 pt-10 text-gray-900 font-bold">
+              <p className="text-3xl pb-2 pt-10 text-gray-900 dark:text-gray-200 font-bold">
                 Tech Stack 🛠
               </p>
               <ul className="text-xl pb-4 pl-6 list-disc">
@@ -210,12 +210,12 @@ export default function Resume() {
               </ul>
             </div>
             <div className="border-b-2">
-              <p className="text-3xl pb-2 pt-10 text-gray-900 font-medium">
+              <p className="text-3xl pb-2 pt-10 text-gray-900 dark:text-gray-200 font-medium">
                 Education
               </p>
               <ul className="text-xl pb-4 pl-6 list-disc">
                 <li className="my-4">
-                  <h2 className="font-medium text-gray-900 text-xl mb-2">
+                  <h2 className="font-medium text-gray-900 dark:text-gray-200 text-xl mb-2">
                     Adani Institute of Infrastructure Engineering
                   </h2>
                   <ul className="my-2">
@@ -229,7 +229,7 @@ export default function Resume() {
             </div>
 
             <div className="border-b-2">
-              <p className="text-3xl pb-2 pt-10 text-gray-900 font-medium">
+              <p className="text-3xl pb-2 pt-10 text-gray-900 dark:text-gray-200 font-medium">
                 Awards and Achievements 🏆
               </p>
               <ul className="text-xl pb-4 pl-6 list-disc">

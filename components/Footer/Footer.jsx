@@ -1,6 +1,11 @@
 import React from "react";
 import Link from "next/link";
-import { MdiTwitter, MdiEmail, MdiGithub, MdiLinkedin } from "../svgs/Socials";
+import {
+  MdiTwitter,
+  MdiEmail,
+  MdiGithub,
+  MdiLinkedin,
+} from "../../assets/Socials";
 const Footer = () => {
   return (
     <footer className="p-10 flex justify-center items-center">

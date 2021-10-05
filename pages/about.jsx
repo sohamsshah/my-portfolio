@@ -16,9 +16,9 @@ export default function About() {
       <main className="lg:mx-56 mx-8 flex flex-col h-screen justify-between">
         <div>
           <Navbar />
-          <div className="text-gray-600">
+          <div className="text-gray-600 dark:text-gray-400">
             <div className="mt-2 border-b-2">
-              <h1 className="text-6xl font-bold pb-6 text-gray-900">
+              <h1 className="text-6xl font-bold pb-6 text-gray-900 dark:text-gray-200">
                 About 🙋‍♂️
               </h1>
             </div>
@@ -26,26 +26,28 @@ export default function About() {
               <div className="w-full border-2 p-4 shadow-md rounded-md border-50">
                 <Image src="/displayPicture.jpg" height="300" width="300" />
                 <h2>
-                  <span className="text-lg font-bold text-gray-900">
+                  <span className="text-lg font-bold text-gray-900 dark:text-gray-200">
                     Soham Shah
                   </span>
                 </h2>
                 <h2>
-                  <span className="text-md text-gray-900">
+                  <span className="text-md text-gray-900 dark:text-gray-200">
                     Software Engineer
                   </span>
                 </h2>
                 <h2>
-                  <span className="text-md text-gray-900">India</span>
+                  <span className="text-md text-gray-900 dark:text-gray-200">
+                    India
+                  </span>
                 </h2>
                 <h2>
-                  <span className="text-md text-gray-900">
+                  <span className="text-md text-gray-900 dark:text-gray-200">
                     sohamshah456@gmail.com
                   </span>
                 </h2>
               </div>
               <div className="md:pl-16 md:pt-0 pl-0 pt-8 pr-4 md:pr-16">
-                <h2 className="text-3xl font-bold pb-4 text-gray-900">
+                <h2 className="text-3xl font-bold pb-4 text-gray-900 dark:text-gray-200">
                   {" "}
                   Hi 👋 I'm Soham Shah
                 </h2>

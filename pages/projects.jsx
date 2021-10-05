@@ -14,9 +14,9 @@ export default function Projects() {
       <main className="lg:mx-56 mx-8 flex flex-col h-screen justify-between">
         <div>
           <Navbar />
-          <div className="text-gray-600">
+          <div className="text-gray-600 dark:text-gray-400">
             <div className="mt-2 border-b-2">
-              <h1 className="text-6xl font-bold pb-6 text-gray-900">
+              <h1 className="text-6xl font-bold pb-6 text-gray-900 dark:text-gray-200">
                 Projects 💻
               </h1>
               <p className="text-xl pb-4">
@@ -27,7 +27,7 @@ export default function Projects() {
               </p>
             </div>
             <div className="border-b-2">
-              <p className="text-3xl pb-2 pt-10 text-gray-900 font-bold">
+              <p className="text-3xl pb-2 pt-10 text-gray-900 dark:text-gray-200 font-bold">
                 Ongoing 🚶‍♂️
               </p>
               <ul className="text-xl pb-4 list-disc">
@@ -65,7 +65,7 @@ export default function Projects() {
               </ul>
             </div>
             <div className="border-b-2">
-              <p className="text-3xl pb-2 pt-10 text-gray-900 font-bold">
+              <p className="text-3xl pb-2 pt-10 text-gray-900 dark:text-gray-200 font-bold">
                 Built ⌨🔧
               </p>
               <ul className="text-xl pb-4 list-disc">
@@ -160,7 +160,7 @@ export default function Projects() {
               </ul>
             </div>
             <div className="border-b-2">
-              <p className="text-3xl pb-2 pt-10 text-gray-900 font-bold">
+              <p className="text-3xl pb-2 pt-10 text-gray-900 dark:text-gray-200 font-bold">
                 Contributed 💖
               </p>
               <ul className="text-xl pb-4">
@@ -175,7 +175,7 @@ export default function Projects() {
               </ul>
             </div>
             <div className="border-b-2">
-              <p className="text-3xl pb-2 pt-10 text-gray-900 font-bold">
+              <p className="text-3xl pb-2 pt-10 text-gray-900 dark:text-gray-200 font-bold">
                 Maintaining 🤓
               </p>
               <ul className="text-xl pb-4 list-disc">

@@ -1,5 +1,6 @@
 import React from "react";
 import { NavLink } from "../Navlink/Navlink";
+import DarkModeToggleButton from "../DarkModeToggleButton";
 import Link from "next/link";
 import Image from "next/image";
 
@@ -40,6 +41,9 @@ const Navbar = () => {
         </li>
         <li className="mx-3 hover:underline">
           <NavLink href="/talks">Talks</NavLink>
+        </li>
+        <li>
+          <DarkModeToggleButton />
         </li>
       </ul>
     </nav>
