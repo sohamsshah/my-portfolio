@@ -71,12 +71,27 @@ export default function About() {
                   Presently, I am aligned to Web Technologies and Tooling and
                   play with Frontend everyday. Also, I possess decent experience
                   with Machine Learning and Computer Vision Paradigms of
-                  Computer Science; where research interest lies.
+                  Computer Science; where my research interest lies.
                 </p>
                 <p className="text-lg pb-4">
                   If not programming, you can find me singing, reading
                   philosophy and cosmology, writing poetry or making funny
                   programming memes on my Instagram meme page.
+                </p>
+                <p className="text-lg pb-4">
+                  Feel free to check out my{" "}
+                  <Link href="/resume">
+                    <a className="underline"> Resume</a>
+                  </Link>
+                  ,{" "}
+                  <Link href="/projects">
+                    <a className="underline">Projects</a>
+                  </Link>{" "}
+                  and{" "}
+                  <Link href="/talks">
+                    <a className="underline">Talks</a>
+                  </Link>
+                  .
                 </p>
                 <p className="text-lg pb-4">
                   Want to dicuss tech, ideas or opportunities? You can always

@@ -6,7 +6,7 @@ import Image from "next/image";
 
 const Navbar = () => {
   return (
-    <nav className="flex lg:flex-row flex-wrap justify-between py-14">
+    <nav className="flex lg:flex-row flex-wrap justify-between py-10">
       <div>
         <Link href="/">
           <a>
@@ -22,6 +22,18 @@ const Navbar = () => {
       </div>
       <ul className="flex flex-wrap lg:justify-center lg:py-0 pt-4 text-xl">
         <li className="mx-3 hover:underline">
+          <NavLink href="/about">About</NavLink>
+        </li>
+        <li className="mx-3 hover:underline">
+          <NavLink href="/projects">Projects</NavLink>
+        </li>
+        <li className="mx-3 hover:underline">
+          <NavLink href="/resume">Resume</NavLink>
+        </li>
+        <li className="mx-3 hover:underline">
+          <NavLink href="/talks">Talks</NavLink>
+        </li>
+        <li className="mx-3 hover:underline">
           <a
             href="https://sohamsshah.hashnode.dev/"
             target="_blank"
@@ -29,18 +41,6 @@ const Navbar = () => {
           >
             Blog
           </a>
-        </li>
-        <li className="mx-3 hover:underline">
-          <NavLink href="/projects">Projects</NavLink>
-        </li>
-        <li className="mx-3 hover:underline">
-          <NavLink href="/about">About</NavLink>
-        </li>
-        <li className="mx-3 hover:underline">
-          <NavLink href="/resume">Resume</NavLink>
-        </li>
-        <li className="mx-3 hover:underline">
-          <NavLink href="/talks">Talks</NavLink>
         </li>
         <li>
           <DarkModeToggleButton />

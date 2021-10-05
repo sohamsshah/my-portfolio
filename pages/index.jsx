@@ -22,7 +22,7 @@ export default function Home() {
               </h1>
               <p className="text-xl pb-4">
                 Hey, there! Welcome to my Website. I am Soham Shah - Software
-                Engineer building Web Apps.
+                Engineer based in India.
               </p>
               <p className="text-xl">
                 I am a final year student at Adani Institute, currently pursuing
@@ -36,10 +36,10 @@ export default function Home() {
                 research work around it.
               </p>
               <p className="text-xl pb-4">
-                I am also a passionate open source contributor and tech speaker.
                 I have been involved with Google Developer Student Clubs- GHRCE
                 and Adani Institute of Innovation Hub (AIIH) and have organized
-                workshops, talks and hackathons for the community.
+                workshops, talks and hackathons for the community. I am also a
+                passionate open source contributor and tech speaker.
               </p>
               <p className="text-lg pb-10">
                 <Link href="/about">

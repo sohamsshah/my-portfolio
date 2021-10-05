@@ -1,6 +1,7 @@
 import Head from "next/head";
 import Navbar from "./../components/Navbar/Navbar";
 import Footer from "./../components/Footer/Footer";
+import { MdiGithub } from "../assets/Socials";
 
 export default function Projects() {
   return (
@@ -30,7 +31,7 @@ export default function Projects() {
               <p className="text-3xl pb-2 pt-10 text-gray-900 dark:text-gray-200 font-bold">
                 Ongoing 🚶‍♂️
               </p>
-              <ul className="text-xl pb-4 list-disc">
+              <ul className="pl-6 text-xl pb-4 list-disc">
                 <li className="my-4">
                   <h2 className="font-medium underline text-2xl mb-2">
                     OpenSwags.io
@@ -68,18 +69,21 @@ export default function Projects() {
               <p className="text-3xl pb-2 pt-10 text-gray-900 dark:text-gray-200 font-bold">
                 Built ⌨🔧
               </p>
-              <ul className="text-xl pb-4 list-disc">
+              <ul className="text-xl pb-4 pl-6 list-disc">
                 <li className="my-4">
                   <h2 className="font-medium underline text-2xl mb-2">
                     mockBee
                   </h2>
                   <p className="mb-2">
-                    <b>mockBee</b> gives you Fake Backend APIs for you to build
-                    awesome Frontend Projects! It is a collection of
-                    fine-crafted APIs for awesome web applications such as
-                    e-commerce, video-library, social media etc. It is easily
-                    configurable, highly customizable and all app APIs are
-                    packed with cool features 🔥
+                    <span className="hover:underline font-medium">
+                      <a href="https://github.com/neogcamp/mockBee">mockBee</a>
+                    </span>{" "}
+                    gives you Fake Backend APIs for you to build awesome
+                    Frontend Projects! It is a collection of fine-crafted APIs
+                    for awesome web applications such as e-commerce,
+                    video-library, social media etc. It is easily configurable,
+                    highly customizable and all app APIs are packed with cool
+                    features 🔥
                   </p>
                   <p className="mb-2">
                     Also, MockBee is still actively developed and more and more
@@ -96,10 +100,15 @@ export default function Projects() {
                     Sodium UI Component Library
                   </h2>
                   <p className="mb-2">
-                    <b>Sodium UI</b> is a frontend react-based web component
-                    library similar to Material UI or Chakra UI. Components are
-                    built by following Atomic Design principles. Bundling of the
-                    Library is performed with Rollup. The Web Components are
+                    <span className="hover:underline font-medium">
+                      <a href="https://github.com/sohamsshah/sodium-ui">
+                        Sodium UI
+                      </a>
+                    </span>{" "}
+                    is a frontend react-based web component library similar to
+                    Material UI or Chakra UI. Components are built by following
+                    Atomic Design principles. Bundling of the Library is
+                    performed with Rollup. The Web Components are
                     well-documented accompanied by a Docsite; created with React
                     from scratch.
                   </p>
@@ -113,9 +122,14 @@ export default function Projects() {
                     Sodium Infinite Scroll Component
                   </h2>
                   <p className="mb-2">
-                    <b>sodium-infinite-scroller</b> is a simple, zero-dependency
-                    and awesome React Infinite ♾ Scrolling Component based on
-                    Intersection Observer API. Powered by Vite.js
+                    <span className="hover:underline font-medium">
+                      <a href="https://github.com/sohamsshah/sodium-infinite-scroller">
+                        sodium-infinite-scroller
+                      </a>
+                    </span>{" "}
+                    is a simple, zero-dependency and awesome React Infinite ♾
+                    Scrolling Component based on Intersection Observer API.
+                    Powered by Vite.js
                   </p>
                   <p className="mb-2">
                     <span className="font-medium">Built With</span>: React,
@@ -127,11 +141,16 @@ export default function Projects() {
                     REStream
                   </h2>
                   <p className="mb-2">
-                    <b>REStream</b> is a full stack video streaming platform for
-                    researchers which is distraction-free and niche-specific app
-                    for budding researchers. Configured features such as follow,
-                    like videos, create and add to playlist, browse by
-                    categories, search history.
+                    <span className="hover:underline font-medium">
+                      <a href="https://github.com/sohamsshah/REStream">
+                        REStream
+                      </a>
+                    </span>{" "}
+                    is a full stack video streaming platform for researchers
+                    which is distraction-free and niche-specific app for budding
+                    researchers. Configured features such as follow, like
+                    videos, create and add to playlist, browse by categories,
+                    search history.
                   </p>
                   <p className="mb-2">
                     <span className="font-medium">Built With</span>: React,
@@ -143,14 +162,19 @@ export default function Projects() {
                     pixelsHash
                   </h2>
                   <p className="mb-2">
-                    <b>pixelsHash</b> is the Go-to place for High Quality,
-                    Beautiful and Picturesque 3-D matrices of Pixels - hashed
-                    perfectly for you to describe your thoughts in high
-                    resolution! 🖼⚡ You can view, search and download everything
-                    that you want! Powered By Unsplash! It has features such as
-                    infinite scrolling, save search history, great lighthouse
-                    score, download pictures, profanity filter, toggle view and
-                    many more!
+                    <span className="hover:underline font-medium">
+                      <a href="https://github.com/sohamsshah/pixelsHash">
+                        pixelsHash
+                      </a>
+                    </span>{" "}
+                    is the Go-to place for High Quality, Beautiful and
+                    Picturesque 3-D matrices of Pixels - hashed perfectly for
+                    you to describe your thoughts in high resolution! 🖼⚡ You
+                    can view, search and download everything that you want!
+                    Powered By Unsplash! It has features such as infinite
+                    scrolling, save search history, great lighthouse score,
+                    download pictures, profanity filter, toggle view and many
+                    more!
                   </p>
                   <p className="mb-2">
                     <span className="font-medium">Built With</span>: Next,
@@ -178,29 +202,39 @@ export default function Projects() {
               <p className="text-3xl pb-2 pt-10 text-gray-900 dark:text-gray-200 font-bold">
                 Maintaining 🤓
               </p>
-              <ul className="text-xl pb-4 list-disc">
+              <ul className="pl-6 text-xl pb-4 list-disc">
                 <li className="my-4">
                   <h2 className="font-medium underline text-2xl mb-2">
                     Rotten_Scripts
                   </h2>
                   <p className="mb-2">
-                    <b>Rotten_Scripts</b> contains amazing and awesome scripts
-                    written in Python, JavaScript, Bash, Powershell, and more.
-                    Major work revolves around creating new issues, helping
-                    contributors with existing features/bugs, reviewing PRs and
-                    overall maintaining the repository.
+                    <span className="hover:underline font-medium">
+                      <a href="https://github.com/HarshCasper/Rotten-Scripts">
+                        Rotten_Scripts
+                      </a>
+                    </span>{" "}
+                    contains amazing and awesome scripts written in Python,
+                    JavaScript, Bash, Powershell, and more. Major work revolves
+                    around creating new issues, helping contributors with
+                    existing features/bugs, reviewing PRs and overall
+                    maintaining the repository.
                   </p>
                 </li>
                 <li className="my-4">
                   <h2 className="font-medium underline text-2xl mb-2">
                     JavaScriptONLY
                   </h2>
+
                   <p className="mb-2">
-                    <b>JavaScriptONLY</b> is a well-curated content for
-                    refering/learning JavaScript. Have added JavaScript Notes,
-                    Code Snippets, Resources, Books, Interview Questions and a
-                    lot more. Generally I share and document my learnings here,
-                    together with the community.
+                    <span className="hover:underline font-medium">
+                      <a href="https://github.com/codesONLY/JavaScriptONLY">
+                        JavaScriptONLY
+                      </a>
+                    </span>{" "}
+                    is a well-curated content for refering/learning JavaScript.
+                    Have added JavaScript Notes, Code Snippets, Resources,
+                    Books, Interview Questions and a lot more. Generally I share
+                    and document my learnings here, together with the community.
                   </p>
                 </li>
               </ul>

@@ -52,7 +52,7 @@ const Footer = () => {
             </a>
           </li>
         </ul>
-        <div className="text-gray-600 flex flex-wrap">
+        <div className="text-gray-600 dark:text-gray-400 flex flex-wrap">
           <div>Copyright © 2021 </div>
           <div>
             •{" "}
