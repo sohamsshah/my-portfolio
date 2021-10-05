@@ -24,7 +24,12 @@ export default function About() {
             </div>
             <div className="flex md:flex-row flex-col py-10 justify-around items-start">
               <div className="w-full border-2 p-4 shadow-md rounded-md border-50">
-                <Image src="/displayPicture.jpg" height="300" width="300" />
+                <Image
+                  src="/displayPicture.jpg"
+                  height="300"
+                  width="300"
+                  alt="about-dp"
+                />
                 <h2>
                   <span className="text-lg font-bold text-gray-900 dark:text-gray-200">
                     Soham Shah
@@ -49,13 +54,13 @@ export default function About() {
               <div className="md:pl-16 md:pt-0 pl-0 pt-8 pr-4 md:pr-16">
                 <h2 className="text-3xl font-bold pb-4 text-gray-900 dark:text-gray-200">
                   {" "}
-                  Hi 👋 I'm Soham Shah
+                  Hi 👋 I&apos;m Soham Shah
                 </h2>
                 <p className="text-lg pb-4">
                   I am a passionate engineer; here with an aim to create
                   positive impact - with the power of code. Programming in
-                  simple terms actually boils down to one purpose - "Problem
-                  Solving". Thus, I don't prefer confining myself to a
+                  simple terms actually boils down to one purpose - `Problem
+                  Solving`. Thus, I don&apos;t prefer confining myself to a
                   particular language or framework; and instead being extremely
                   dynamic to learn and build whatever problem demands.
                 </p>

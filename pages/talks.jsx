@@ -20,8 +20,8 @@ export default function Talks() {
                 Talks 🎙
               </h1>
               <p className="text-xl pb-4">
-                I am a true believer of "One's Knowledge amplifies
-                exponentially, when shared." And so, I love giving Tech Talks at
+                I am a true believer of `One&apos;s Knowledge amplifies
+                exponentially, when shared.` And so, I love giving Tech Talks at
                 various Meetups and Conferences to share my learnings with the
                 community. I speak about Frontend Technologies, Tooling and
                 interesting things about the Web.

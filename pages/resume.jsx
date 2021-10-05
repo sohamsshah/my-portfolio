@@ -59,13 +59,13 @@ export default function Resume() {
                 </li>
                 <li className="my-4">
                   <h2 className="font-medium text-gray-900 dark:text-gray-200 text-xl mb-2">
-                    Project Mentor, GirlScript Summer of Code (GSSoC'21)
+                    Project Mentor, GirlScript Summer of Code (GSSoC&apos;21)
                   </h2>
                   <h3>March 2021 - June 2021</h3>
                   <ul className="my-2">
                     <li>
-                      - Mentored 50+ GSSoC'21 Participants at RottenScripts for
-                      Python and JavaScript related features and bugs
+                      - Mentored 50+ GSSoC&apos;21 Participants at RottenScripts
+                      for Python and JavaScript related features and bugs
                     </li>
                     <li>
                       - Successfully merged 90+ PRs and performed 40+ extensive
@@ -162,9 +162,9 @@ export default function Resume() {
                   </h2>
                   <ul className="my-2">
                     <li>
-                      - "Ingenious Hackathon" which is a 48-hour intensive
-                      coding hackathon partnered with IEEE organized by
-                      Ahmedabad University.
+                      - &apos;Ingenious Hackathon&apos; which is a 48-hour
+                      intensive coding hackathon partnered with IEEE organized
+                      by Ahmedabad University.
                     </li>
                     <li>
                       - To suggest improvements and review of their idea and
@@ -234,19 +234,21 @@ export default function Resume() {
               </p>
               <ul className="text-xl pb-4 pl-6 list-disc">
                 <li className="my-4">
-                  My Research paper entitled "SOC Estimation using Filter-based
-                  and Data-driven Techniques" got published in "Research
-                  Challenges in Science, Engineering and Technology" by NOVA
-                  publications USA.
+                  My Research paper entitled &apos;SOC Estimation using
+                  Filter-based and Data-driven Techniques&apos; got published in
+                  &apos;Research Challenges in Science, Engineering and
+                  Technology&apos; by NOVA publications USA.
                 </li>
                 <li className="my-4">
-                  Wrote a review paper entitled "Embedded Systems and Computer
-                  Vision Techniques utilized in Spray Painting Robots" which
-                  currently under review stage at Elsevier publications.
+                  Wrote a review paper entitled &apos;Embedded Systems and
+                  Computer Vision Techniques utilized in Spray Painting
+                  Robots&apos; which currently under review stage at Elsevier
+                  publications.
                 </li>
                 <li className="my-4">
-                  Patent for "Automatic Spray-Painting Robot for Road Markings"
-                  has been successfully published under Indian Patents.
+                  Patent for &apos;Automatic Spray-Painting Robot for Road
+                  Markings&apos; has been successfully published under Indian
+                  Patents.
                 </li>
                 <li className="my-4">
                   Winners, AIIH 24-Hour Robotics Hackathon
@@ -257,14 +259,14 @@ export default function Resume() {
                 </li>
                 <li className="my-4">
                   Winners, Innovate to Impact(i2i) category across Gujarat state
-                  organized by "Gujarat Innovation and Startup Council(GISC),
-                  2020-2021
+                  organized by &apos;Gujarat Innovation and Startup
+                  Council(GISC)&apos;, 2020-2021
                 </li>
                 <li className="my-4">
-                  Best Initiative Award, Innovative Student's Co-creation Award
-                  for Leadership and Excellence (i-SCALE) category across
-                  Gujarat state organized by "Gujarat Innovation and Startup
-                  Council(GISC), 2019-2020
+                  Best Initiative Award, Innovative Student&apos;s Co-creation
+                  Award for Leadership and Excellence (i-SCALE) category across
+                  Gujarat state organized by &apos;Gujarat Innovation and
+                  Startup Council(GISC)&apos;, 2019-2020
                 </li>
               </ul>
             </div>
