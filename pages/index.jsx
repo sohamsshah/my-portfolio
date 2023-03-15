@@ -25,8 +25,7 @@ export default function Home() {
                 Engineer based in India.
               </p>
               <p className="text-xl">
-                I am a final year student at Adani Institute, currently pursuing
-                Information and Communication Technology Engineering.
+                I work as a Software Engineer (Frontend) at <a href="https://heymarvin.com/" target="_blank"> Marvin </a>.
               </p>
               <p className="text-xl pb-4">
                 My experience revolves around developing full-stack
