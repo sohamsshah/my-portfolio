@@ -25,7 +25,7 @@ export default function Home() {
                 Engineer based in India.
               </p>
               <p className="text-xl">
-                I work as a Software Engineer (Frontend) at <a href="https://heymarvin.com/" target="_blank"> Marvin </a>.
+                I work as a Software Engineer (Frontend) at <a rel="noreferrer" href="https://heymarvin.com/" target="_blank"> Marvin </a>.
               </p>
               <p className="text-xl pb-4">
                 My experience revolves around developing full-stack
